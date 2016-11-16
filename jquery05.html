@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="js/jquery05.js"></script>
+</head>
+<body>
+
+<!-- 그냥 문자만 쓰면 못가져옴 <span> 태그로 감싸줘야지 jquery에서 가져올수 있다. -->
+<!-- div로 라인마다 영역을 잡아주면 삭제할때 한줄을 통으로 삭제 가능하다-->
+<div>
+<input type="checkbox"><span>서울</span> <br>
+</div>
+<div>
+    <input type="checkbox"><span> 인천</span> <br>
+    </div>
+
+<div>
+<input type="checkbox"><span> 부산</span> <br>
+</div>
+
+<div>
+<input type="checkbox"><span> 광주</span> <br>
+</div>
+
+<input type="button" value="실행!!" onclick="myFunction()">
+
+</body>
+</html>
